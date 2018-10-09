@@ -1,4 +1,4 @@
-## Descriptive Statistics 1
+## Descriptive Statistics Part 1
 
 The world "data" is defined as disctinct piece of information. Dtata can come in many forms: text, video, spreadsheets, images, audio and other forms. 
 
