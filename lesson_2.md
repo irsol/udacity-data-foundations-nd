@@ -65,5 +65,17 @@ If we have an even number of observations, the median is the average of the two 
 **Random variables** are represented by capital letters.
 For example:
 
-`X = amount of time on website` where X is an entire set of possible values. Think about X as a placeholder for any of these possible values. Once we observe an outcome of these random variables, we notate it as a lower case of the same letter. Often the lower case letter has a subscript x
+`X = amount of time on website` where X is an entire set of possible values. Think about X as a placeholder for any of these possible values. Once we observe an outcome of these random variables, we notate it as a lower case of the same letter. Often the lower case letter has a subscript xn, that helps attach notation to each specific value in dataset. X is the amount of time an individual spends on the website.
+
+Example:
+What is the probability someone spends more than 20 minutes in our website?
+
+In notation, we would write:
+
+P(X > 20)?
+
+Here P stands for probability, while the parentheses encompass the statement for which we would like to find the probability. Since X represents the amount of time spent on the website, this notation represents the probability the amount of time on the website is greater than 20.
+
+We could find this in the above example by noticing that only one of the 5 observations exceeds 20. So, we would say there is a 1 (the 45) in 5 or 20% chance that an individual spends more than 20 minutes on our website (based on this dataset).
+
 
