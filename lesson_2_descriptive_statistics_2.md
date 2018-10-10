@@ -101,3 +101,38 @@ Two additional measures of spread that are used all the time are the variance an
 
 
 #### Shape
+
+From a histogram we can quickly identify the shape of our data:
+
+1. Right-skewed has median < mean
+2. Left-skewed has mean < median
+3. Symmetric (or Normal Disctribution or Bell Shape Curve) has a mean = madian = mode
+
+The **mode** of a distribution is essentially the tallest bar in a histogram. There may be multiple modes depending on the number of peaks in our histogram.
+
+
+#### Shape and Outliers
+
+**Outliers** are data points that fall very far from the rest of the values in our dataset.
+
+#### Working with Outliers
+
+Common Techniques
+When outliers are present we should consider the following points.
+
+1. Noting they exist and the impact on summary statistics.
+
+2. If typo - remove or fix
+
+3. Understanding why they exist, and the impact on questions we are trying to answer about our data.
+
+4. Reporting the 5 number summary values is often a better indication than measures like the mean and standard deviation when we have outliers.
+
+5. Be careful in reporting. Know how to ask the right questions.
+
+#### Outliers Advice
+ 
+ 1. Plot your data to identify if you have outliers.
+ 2. Determine how to handle them. (Fix, remove, keep)
+ 3. If no outliers and your data follow a normal distribution - use the mean and standard deviation to describe your dataset, and report that the data are normally distributed.
+ 4. With Skewed Data the Five Number Summery provides much more info for these data sets than the mean and the standard deviation can provide. 
