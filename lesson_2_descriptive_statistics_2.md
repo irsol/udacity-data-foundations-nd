@@ -59,3 +59,45 @@ The **range** is then calculated as the difference between the maximum and the m
 
 **IQR**
 The interquartile range is calculated as the difference between **Q3** and **Q1**.
+
+#### Box Plot
+
+Box Plot can be useful for quickly comparing the spread of two data sets across some keq metrics like quartiles, max and min.
+
+For datasets that are **not symmetric**, the five number summary and a corresponding box-plot are a great way to get started with understanding the spread of your data.
+
+#### Standard Deviation and Variance
+
+**Standard Deviation** defined as the average distance of each observation from the mean.
+
+#### Standard Deviation Calculation
+![standard deviation formula](sd.png)
+
+1. Take an average of the sample or x-bar.
+2. Deviation from the mean: xi -x-bar
+3. Square each deviation
+4. Variance is the average squared deviations
+5. Standard deviations is simply the square root of the variance.
+
+Two additional measures of spread that are used all the time are the variance and standard deviation.
+
+#### Recap Standard Deviation and Variance
+
+- Standard Deviations is used to compare spread of different groups to determine which is more spread out.
+
+- When data pertains to money or the economy, having higher standerd deviation is associated with having higher risk.
+
+- In comparing stock prices, a stock price that changes with higher standard deviation over time is considered more risky than a stock price that fluctuates with lower standard deviation. 
+
+- Fair comparisons requaire the same units.
+
+- Variance has squared units of the original dataset. The variance is used to compare the spread of two different groups. A set of data with higher variance is more spread out than a dataset with lower variance. Be careful though, there might just be an outlier (or outliers) that is increasing the variance, when most of the data are actually very close.
+
+
+- Standard Deviation is the square root of the variance and shares units with the original dataset.
+
+- If standard Deviation is a zero value, that is mean all of data points are the same value.
+
+
+
+#### Shape
