@@ -51,3 +51,19 @@ UPPER makes all letters upper case.
 **LOWER**
 
 Makes all letters lower case.
+
+#### Math Functions:
+
+There are two kinds of arithmetic operations in spreadsheets those done with arithmetic operators and those that use functions.
+
+Arithmetic operators:
+- addition: =add()
+- substraction: =substruct()
+- multiplication: =multiply()
+- division: =divide()
+
+**Statistical Functions**:
+
+A couple of very useful statistical functions:
+=sum()
+=average()
