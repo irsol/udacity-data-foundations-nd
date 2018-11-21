@@ -67,3 +67,18 @@ Arithmetic operators:
 A couple of very useful statistical functions:
 =sum()
 =average()
+
+#### Duplicate Rows
+
+Tabel level data operations are useful for cleaning manipulating lists of data.
+When clean data, we're trying to rid it of corrupt and inaccurate data items.
+
+**Google Sheets Instructions**
+
+If you are using Google Sheets as your spreadsheet application, there is an add-on named      [Remove Duplicates](https://chrome.google.com/webstore/detail/remove-duplicates/bckmhokpcdnhhjldhhfpebhdfipmlbog?hl=en) that makes this a very easy operation. Once you install the add-on, remove duplicates by highlighting the columns and selecting.
+`Add-ons->Remove Duplicates`
+
+#### Split Columns
+To split column se text to columns tool. 
+
+If work with larger data sets, its can be helpful to "freeze" the header row or far left column as you scroll through data. To do this, use the View->Freeze Panes operation in Excel or View->Freeze in Google Sheets to select the rows or columns you want to always be visible.
