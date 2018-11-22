@@ -82,3 +82,8 @@ If you are using Google Sheets as your spreadsheet application, there is an add-
 To split column se text to columns tool. 
 
 If work with larger data sets, its can be helpful to "freeze" the header row or far left column as you scroll through data. To do this, use the View->Freeze Panes operation in Excel or View->Freeze in Google Sheets to select the rows or columns you want to always be visible.
+
+
+#### Filter Data 
+
+Fiktering data is a way to group data by selecting characteristics from our data columns and not looking at the other data.
