@@ -50,3 +50,15 @@ Pivot Tables summarize an aggregate all in one step.
 #### Named Ranges
 
 The simplest way to name a cell or range is to select the cell or range and then go to the formula meny and click define name. We can identify some single values by name range or cell that we going to use in formulas.
+
+#### Lookup Function
+
+Lookup functions is a function that uses a keyword and index to "look up" a value in a table.
+Use named range for lookup tables to reduce errors!
+
+There are horizontal and vertical lookup functions:
+`=vlookup(lookup_value, data range)`
+Example:
+=vlookup(A2,Airports!A:B,2,false)
+
+`zzz` means not in a list:
