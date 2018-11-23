@@ -47,6 +47,8 @@ Function that operates across a group of data with logical contitions.
 
 Pivot Tables summarize an aggregate all in one step. 
 
+Pivot Tables useful for quickly analyzing data in different ways without worry about selecting the right columns, ranges, 
+
 #### Named Ranges
 
 The simplest way to name a cell or range is to select the cell or range and then go to the formula meny and click define name. We can identify some single values by name range or cell that we going to use in formulas.
