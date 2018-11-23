@@ -58,3 +58,22 @@ Box plot is the visualization of statistical spread in a data set of values. A t
 5. Third Quartile
 The box represents the miiddle half of the data with a line where the median is.
 ![Box Plot](box_plot.png)
+
+Exel has six number in the summary: mean or average value of the set.
+
+A box plot represents statistics for a single list of numbers. Each list you select will be represented by its own box plot. The box plot gives visual sense of the spread of the value list.
+
+[Create a box and whisker chart
+](https://support.office.com/en-us/article/Create-a-box-and-whisker-chart-62f4219f-db4b-4754-aca8-4743f6190f0d#OfficeVersion=Mac) 
+
+Box Plot Quiz:
+
+![Box Plot Quiz](box_plot_quiz.png)
+
+Min => F
+Max => C
+Median => E
+Mean => B
+1st Quartile => A
+2d Quartile => E
+3d Quartile => D
