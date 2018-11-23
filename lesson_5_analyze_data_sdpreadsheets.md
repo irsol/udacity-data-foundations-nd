@@ -61,4 +61,13 @@ There are horizontal and vertical lookup functions:
 Example:
 =vlookup(A2,Airports!A:B,2,false)
 
-`zzz` means not in a list:
+#### **Calc VLOOKUP**
+
+Syntax:
+VLOOKUP(lookupvalue; datatable; columnindex; mode)
+
+lookupvalue is a value (number, text or logical value) to look up in the left column of the range/array datatable. When a value is matched in the left column, VLOOKUP returns the corresponding value (in the same row) in the columnindexth column of datatable, where columnindex = 1 is the left column.
+
+If mode is 0 or FALSE, the left column of datatable may be unordered, and the first exact match is found (searching from the top).
+
+If mode is 1 or TRUE, or is omitted, the left column of datatable must be sorted, with numbers in ascending order appearing before text values in alphabetic order. VLOOKUP decides where in the left column lookupvalue would appear. If there is an exact match, that is the row found; if there is more than one exact match, the row found is not necessarily nearest the top. If there is no exact match, the row above where value would appear in the left column is found; the #N/A error results if that row is not in the table.
