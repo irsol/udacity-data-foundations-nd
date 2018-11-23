@@ -68,6 +68,8 @@ A box plot represents statistics for a single list of numbers. Each list you sel
 
 Box Plot Quiz:
 
+Box and Whisker Plots give us a visualization of statistical spread using the "5 Number Summary". Excel even provides a 6th number visualization as a bonus.
+
 ![Box Plot Quiz](box_plot_quiz.png)
 
 Min => F
@@ -77,3 +79,15 @@ Mean => B
 1st Quartile => A
 2d Quartile => E
 3d Quartile => D
+
+#### Professional Presentations
+
+When presenting data think about:
+- What questions are you answering?
+- What patterns trying to show?
+- Who is the audience?
+- Overview or in-depth? Is this a quick overview on a slide with the data backup elsewhere or is it a written technical review where more in-depth data should be presented?
+
+If there are more than one data series you need to add **Legend**. But if the labels are already showing up in the data as in the pie chart, then an extra legend no necessary.
+
+For graph: do you need or want grid lines? In a detailed technical presentation, it is easier to see the values if there are grid lines. For quick ovewiews that are just emphasizing the trend those extra lines look busy.
