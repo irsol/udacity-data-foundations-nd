@@ -18,6 +18,14 @@ Use **pie** and **bar sharts** to visualize **categorical data**.
 
 **Line charts** visualize numerical data, such as the list of stock prices over time, a line chart gives a better picture of the data set.
 
+**Scatter plots** are useful for displaying **bivariate numerical data**. This means a data set with two variables, such as height and weight measurements for a list of human beings.
+
+If the data of both variables moves up together, they have a positive **correlation**.
+
+The "trend line", which can be added in Excel by selecting the scatter chart, then Design->Add Chart Element->Trendline->Linear.
+
+If one variable increases as the other decreases, the two variables have a **negative correlation**.
+
 Quizz: Chart Types
 
 - What are the relative percentages of different fruits sold this month? Pie Chart
@@ -31,3 +39,4 @@ Quizz: Chart Types
 - What is the frequency of salaries by millions across all major league baseball players? Histigram
 
 - What is the distribution of my numerical dataset from minimum to maximum, including the 1st, 2nd, and 3rd quartiles? Box Plot
+
