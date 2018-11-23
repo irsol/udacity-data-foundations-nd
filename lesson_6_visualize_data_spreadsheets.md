@@ -48,3 +48,13 @@ Use Analysis ToolPak Add-in on Mac.
 
 **Histograms** and **Bar (or Column) charts** are easily confused. **Histograms** plot distributions of **quantitative (numerical) data**. Numerical ranges of the data are grouped into bins and charted. **Bar* or **column* charts plot counts of **categorical data**.
 
+#### Box Plot
+
+Box plot is the visualization of statistical spread in a data set of values. A traditional box plot is built using the **five numbers summary**. The five number summery consists of five values:
+1. Minimum becomes the tip of lower whisker.
+2. Maximum becomes the tip of upper whisker.
+3. First Quartile
+4. Median or Second Quartile
+5. Third Quartile
+The box represents the miiddle half of the data with a line where the median is.
+![Box Plot](box_plot.png)
