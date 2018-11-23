@@ -28,15 +28,23 @@ If one variable increases as the other decreases, the two variables have a **neg
 
 Quizz: Chart Types
 
-- What are the relative percentages of different fruits sold this month? Pie Chart
+- What are the relative percentages of different fruits sold this month? ==> Pie Chart
 
-- How do the number of apples, oranges and pears sold this month compare to each other? Bar Chart
+- How do the number of apples, oranges and pears sold this month compare to each other? ==> Bar Chart
 
-- How has the price for AAPL stock changed over time? Line Chart
+- How has the price for AAPL stock changed over time? ==> Line Chart
 
-- Is there a relationship I can see between weight and age in a population? Scatter
+- Is there a relationship I can see between weight and age in a population? ==> Scatter
 
-- What is the frequency of salaries by millions across all major league baseball players? Histigram
+- What is the frequency of salaries by millions across all major league baseball players? ==> Histigram
 
-- What is the distribution of my numerical dataset from minimum to maximum, including the 1st, 2nd, and 3rd quartiles? Box Plot
+- What is the distribution of my numerical dataset from minimum to maximum, including the 1st, 2nd, and 3rd quartiles? ==> Box Plot
+
+#### Histogram
+
+Histogram a column chart thet measures the frequency of data in a data set and specifically groups numerical values into bins.
+
+Use Analysis ToolPak Add-in on Mac.
+
+**Histograms** and **Bar (or Column) charts** are easily confused. **Histograms** plot distributions of **quantitative (numerical) data**. Numerical ranges of the data are grouped into bins and charted. **Bar* or **column* charts plot counts of **categorical data**.
 
