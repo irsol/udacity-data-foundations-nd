@@ -91,3 +91,7 @@ When presenting data think about:
 If there are more than one data series you need to add **Legend**. But if the labels are already showing up in the data as in the pie chart, then an extra legend no necessary.
 
 For graph: do you need or want grid lines? In a detailed technical presentation, it is easier to see the values if there are grid lines. For quick ovewiews that are just emphasizing the trend those extra lines look busy.
+
+The main way we might look at the categorical variables is using bar charts, and the main method for looking at quantitative variables is using histograms.
+
+For any skewed distributions the median will likely prove to be a better measure of center. As well as distributions with outliers. The mean will be pulled heavily by outliers, as well as by the tails of our distributions.
