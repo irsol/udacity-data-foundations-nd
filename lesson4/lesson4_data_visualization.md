@@ -77,13 +77,51 @@ Strength - Strong
 Direction - Positive
 Correlation Coefficient - Close to 1 
 
+
 ![Negative Correlation Coefficient](negative_r.png)
 Strength - Moderate 
 Direction - Negative(Indirect)
 Correlation Coefficient - -0.67
 
-![Positive Negative Zero Correlation Coefficient](pos_neg_zero.png)
 
+![Positive Negative Zero Correlation Coefficient](pos_neg_zero.png)
 Plot 1 Correlation Coefficient: 1.0
 Plot 1 Correlation Coefficient: -1.0
 Plot 1 Correlation Coefficient: 0
+
+#### Correlation Coefficients Relationship
+
+Correlation coefficients provide a measure of the strength and direction of a linear relationship.
+
+We can tell the direction based on whether the correlation is positive or negative.
+
+A rule of thumb for judging the strength:
+
+**Strong**: `0.7 <= r <= 1.0` or `-0.7 <= r <= -1.0` 
+
+**Moderate**: `0.3 <= r < 0.7` or negative
+
+**Weak**: `0.0 <= r < 0.3`
+
+**Negative correlation coefficient** is not indicative of a weak relationship.
+It can be calculated in any spreadsheet applications using CORREL(col1, col2), where col1 and col2 are the two columns you are looking to compare to one another
+
+
+#### Lina Plots
+
+**Line plots** are a common plot for viewing quantative data over time. These plots allow us to quickly identify overall trends, seasonal occurrences, peaks, and valleys in the data. You will commonly see these used in looking at stock prices over time, but really tracking anything over time can be easily viewed using these plots.
+
+##### What is the Question?
+
+For example: 
+If we wanted to know which month we had the most traffic for blog the best plot is Chart or Pareto Chart, as this would put months in order from highest to lowerst traffic. 
+
+If we wanted to know if traffic increasing over time, the best chart would be a Line Chart. 
+
+#### More than 2 Variables
+
+If we have more than 2 variables, use a Stacked Line Chart or use Stack Bar Chart or Line Chart with legend.
+
+#### Why Data Dashboards
+
+Sometimes a single plot can't convey all the information in a data set. Foe example, we want to compare Price, Sales, Location, Product and to see these changes happen over time. In this case Data Dashboards come. Dashboards allow to interact with data and view multiple aspects of a data in the same visual environment. 
