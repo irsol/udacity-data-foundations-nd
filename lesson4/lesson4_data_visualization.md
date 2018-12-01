@@ -125,3 +125,5 @@ If we have more than 2 variables, use a Stacked Line Chart or use Stack Bar Char
 #### Why Data Dashboards
 
 Sometimes a single plot can't convey all the information in a data set. Foe example, we want to compare Price, Sales, Location, Product and to see these changes happen over time. In this case Data Dashboards come. Dashboards allow to interact with data and view multiple aspects of a data in the same visual environment. 
+
+Visual Encodings - the way we show our variables in a plot.
