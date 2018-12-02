@@ -13,3 +13,38 @@ From the book "Strytelling with Data" by Cole Nussbaumer Knaflic:
 5. **Think like a designer** - you will learn a number of design principles in this lesson to assist as you start to put together your own data visualizations.
 
 6. **Tell a story** - your visualizations should give the audience a story. The most powerful data visualizations move people to take action.
+
+#### Exploratory vs. Explanatory Analyses 
+
+**Visualization** can be used for two main porpuse when analyzing data Exploratory analysis 
+and Explanatory analysis.
+
+**Exploratory analysis** is done behind the scenes. This is the type of analysis where you're searching for relationships in the data or hidden insights. These visualizations don't need to be perfect. You are using plots to find insights, but they don't need to be aesthetically appealing. You are the consumer of these plots, and you need to be able to find the answer to your questions from these plots.
+
+Explonatory analysis:
+ - Looking for relationships in the data
+ - Connect to questions about data
+ - Visualization don't need to be perfect
+
+**Explanatory analysis** analysis is done when you are providing your results for others. These visualizations need to provide you the emphasis necessary to convey your message. They should be accurate, insightful, and visually appealing.
+
+Explanatory analysis:
+- Highlight insight
+- Visualizations need to be surrounded by a story the reader to an insight that answer the question.
+- Don't include unneeded information
+
+There're five steps in the data analysis process:
+
+ 1. **Extract** - Obtain the data from a spreadsheet, SQL, the web, etc.
+
+ 2. **Clean** - Here we could use exploratory visuals. Determine which columns to keep, round values and perform some other tricks to get the proper to analyze it. 
+
+ 3. **Explore** - Here we use exploratory visuals. The visuals used for cleaning, exploring and analyzing data. The cleanig phase don't need to be super clear and pretty in the message. They're just for the analyst to determine what is going on in the data.
+
+ 4. **Analyze** - Here we might use either exploratory or explanatory visuals.
+
+ 5. **Share** - Here is where explanatory visuals live. The visuals for sharing insights are explanatory, they tell the story of the finding and what it means. 
+
+ #### Bad Visual
+
+ 
