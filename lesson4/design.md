@@ -118,12 +118,50 @@ Three tips for using color effectively.
 
 To be sensitive to those with colorblindness, you should use color palettes that **don't move from red to green** without using another element to distinguish this change like shape, position, or lightness. Both of these colors appear in a yellow tint to individuals with the most common types of colorblindness. Instead, **use colors on a blue to orange** palette.
 
+[5 tips on designing colorblind-friendly visualizations](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
+
 #### Shape, size and other tools
 
 Data can be encoded using different shapes but **don't encode quantative data** with shapes as we run out of the number of shapes to encode our values. You would instead need to change data to **categorical ordinal variable** and encoding **quantitative** data with color can be confusing. 
 
 In general, **color** and **shape** are best used to encode **categorical variables**, while the **size** of the marker can assist in adding additional quantitative data.
 
-Rather than adding additional encodings, tra to break visual into parts where each part of message can be conveyed. 
+Rather than adding additional encodings, tra to break visual into parts where each part of message can be conveyed. But sometimes these additional encodings are necessary.
 
- [5 tips on designing colorblind-friendly visualizations](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
+#### Additional encodings 
+
+Typically we try to use position on the x- and y- axes to encode, or depict the value of variables. If we have more than two variables, however, we have to start considering other visual encodings for the additional variables.
+
+In general, **color and shape** are best for **categorical variables**, while the **size of marker** can assist in adding additional **quantitative data**.
+
+#### General design tips
+
+When we're building data visualizations for **explanatory** purposes, focus on simplicity.
+
+Bad visuals can be avoided by:
+
+ 1. Maintaining a **large data-ink ratio** and removing unnecessary items from visuals.
+
+ 2. Choosing **visual encodings** that work to highlight insights.
+
+ 3. Maintaining **data Integrity** in the visual.
+
+ For **explanatory visuals**:
+
+ 1. Focus the audience's attention on the insight you want them to act on.
+ 
+ 2. Use color only when necessary. Simple is often better.
+ 
+ 3. Tell a story.
+ 
+ #### Tell a story
+
+Telling stories with data follows these steps:
+
+ 1. Start with a compelling question. In presentation supplement your question with angaging visuals. Provide additional examples or deeper questions to help audience further engage and understand the context of your question.
+ 
+ 2. Repetition is a good thing. It can be simple and clearly explicit. Repetition helps your audience move your question to long term memory.
+ 
+ 3. Highlight the answer
+ 
+ 4. Call your audience to action
