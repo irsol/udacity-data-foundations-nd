@@ -75,7 +75,7 @@ Examples of chart junk:
  4. Shading or 3d components
  5. Ornamented chart axes
 
- #### Data Ink Ratio
+ #### Data-Ink Ratio
 
  The data-ink ratio was defined in 1983 by Edward Tufte, is directly related to the idea of chart junk. The more of the ink in your visual that is related to conveying the message in the data, the better. Limiting chart junk increases the data-ink ratio. 
 
@@ -90,4 +90,13 @@ Examples of chart junk:
  **Life Factor** = size of effect shown in graphic/size of effect shown in data
  * by effect, means the difference you're comparing. For example with a bar chart: how much taller a right bar is than a left bar.
 
- In words, the lie factor is the relative change shown in the graphic divided by the actual relative change in the data. Ideally, the lie factor should be 1: any other value means that there is some mismatch in the ratio of depicted change to actual change. 
+ In words, the lie factor is the relative change shown in the graphic divided by the actual relative change in the data. Ideally, the lie factor should be 1: any other value means that there is some mismatch in the ratio of depicted change to actual change.
+
+ Recap: When the lie factor is greater than 1, we are making an effect larger than it actually is 		 and factors less than 1 are hiding the magnitude of an effect. 
+
+Example of a good visualization of the data from a design, following the principles of:
+ 1. reducing chart junk
+ 2. maintaining a high data-ink ratio
+ 3. maintaining data integrity
+ 4. using length to show changes and differences rather than areas
+
