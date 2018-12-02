@@ -65,3 +65,29 @@ Color hue changes as is commonly used as an additional variable encoding in scat
 
 #### Chart junk
 
+**Chart junk** refers to all visual elements in charts and graphs that are not necessary to comprehend the information represented on the graph or that distract the viewer from this information.
+
+Examples of chart junk:
+
+ 1. Heavy grid lines
+ 2. Unnecessary text
+ 3. Pictures surrounding the visual
+ 4. Shading or 3d components
+ 5. Ornamented chart axes
+
+ #### Data Ink Ratio
+
+ The data-ink ratio was defined in 1983 by Edward Tufte, is directly related to the idea of chart junk. The more of the ink in your visual that is related to conveying the message in the data, the better. Limiting chart junk increases the data-ink ratio. 
+
+ In genral, the higher the data-ink ratio, the better. This means that a large amount of the ink in the visual is being used to actually describe the data, while low data-ink suggests using ink that is added for other purposes than describing the data. These elements should be removed.
+
+ #### Design Integrity
+
+ Design Integrity Notes is key that when you build plots you maintain integrity for the underlying data.
+
+ **Lie factor** a concept introduced by Edward Tufte in Visual Display.
+
+ **Life Factor** = size of effect shown in graphic/size of effect shown in data
+ * by effect, means the difference you're comparing. For example with a bar chart: how much taller a right bar is than a left bar.
+
+ In words, the lie factor is the relative change shown in the graphic divided by the actual relative change in the data. Ideally, the lie factor should be 1: any other value means that there is some mismatch in the ratio of depicted change to actual change. 
