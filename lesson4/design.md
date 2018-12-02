@@ -87,7 +87,7 @@ Examples of chart junk:
 
  **Lie factor** a concept introduced by Edward Tufte in Visual Display.
 
- **Life Factor** = size of effect shown in graphic/size of effect shown in data
+ **Lie Factor** = size of effect shown in graphic/size of effect shown in data
  * by effect, means the difference you're comparing. For example with a bar chart: how much taller a right bar is than a left bar.
 
  In words, the lie factor is the relative change shown in the graphic divided by the actual relative change in the data. Ideally, the lie factor should be 1: any other value means that there is some mismatch in the ratio of depicted change to actual change.
@@ -100,3 +100,30 @@ Example of a good visualization of the data from a design, following the princip
  3. maintaining data integrity
  4. using length to show changes and differences rather than areas
 
+#### Color 
+
+**Color** is an important tool in designing visualizations and it's important to use it appropriately to have the largest impact.
+
+Three tips for using color effectively.
+
+ 1. Before adding color to a visualization, start with black and white.
+
+ 2. When using color, use less intense colors - not all the colors of the rainbow, which is the default in many software applications.
+
+ 3. Color for communication. Use color to highlight your message and separate groups of interest. Don't add color just to have color in your visualization.
+
+ #### Designing for color blindness
+
+ Around 10% of men and 1% of women have mutations that is known as colorblindness.
+
+To be sensitive to those with colorblindness, you should use color palettes that **don't move from red to green** without using another element to distinguish this change like shape, position, or lightness. Both of these colors appear in a yellow tint to individuals with the most common types of colorblindness. Instead, **use colors on a blue to orange** palette.
+
+#### Shape, size and other tools
+
+Data can be encoded using different shapes but **don't encode quantative data** with shapes as we run out of the number of shapes to encode our values. You would instead need to change data to **categorical ordinal variable** and encoding **quantitative** data with color can be confusing. 
+
+In general, **color** and **shape** are best used to encode **categorical variables**, while the **size** of the marker can assist in adding additional quantitative data.
+
+Rather than adding additional encodings, tra to break visual into parts where each part of message can be conveyed. 
+
+ [5 tips on designing colorblind-friendly visualizations](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
