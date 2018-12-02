@@ -47,4 +47,21 @@ There're five steps in the data analysis process:
 
  #### Bad Visual
 
- 
+ **Bad data visualizytions** can be summed up as visuals thet **don't convey your message** well or are **misleading**.
+
+#### Visual Encodings 
+
+**Visual Encodings** are mapping from data to display elements.
+**Display elements** include:
+ - position on x-axis or y-axis 
+ - size of point or bars 
+ - shape of points, texture, angle and many more.
+
+ Two of most effective methods for showing **quantitative data** are:
+  1. **position on axis** - differences in x- and y- position as with scatterplots
+  2. **length** - differences in box heights as with bar charts and histograms
+
+Color hue changes as is commonly used as an additional variable encoding in scatter plots.
+
+#### Chart junk
+
