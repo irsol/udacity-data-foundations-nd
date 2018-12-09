@@ -63,3 +63,8 @@ Dimensions aren't required to be discrete and measures aren't required to be con
 
 Tableau automatically aggregates measures, but not dimensions. That is, it does calculations like sums and means. Dimensions are used to group the data and set the level of granularity. 
 
+#### Making plot
+
+ When you drag a discrete field to Columns, it creates a discrete axis. When you use a continuous field, it creates a continuous axis. You can also drag the fields directly onto the sheet.
+
+ 
