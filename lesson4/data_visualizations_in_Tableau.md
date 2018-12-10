@@ -95,3 +95,31 @@ As with color and size, you can use the shape of the markers to encode data. You
 The "Detail" card allows you to bring in a field without any visual encoding. This enables you to increase granularity without adding any graphical effect.
 
 The "Label" card adds in labels for all of our markers.
+
+#### Filters 
+One of the greatest features of Tableau is the ability to make interactive filters.
+Filtering basics
+
+There are a few different ways to create filters. First, you can make a filter directly from the view. You can filter directly from this view by selecting the data, right clicking to open the context menu, and creating a filter.
+
+#### Interactive filters
+
+This is a static filter which you set in the menu and if you want to change it, you have to go back into the menu. It let's you make the filter interactive and control it from the view.
+
+#### Recap Marks and Filters
+
+The color made it easy to tell the difference between segments. Size is frequently a last option for visual encodings. Position and length are the best encodings. Color and shape are next, but using areas and size can be hard for an audience member to understand.
+
+
+#### Show me
+
+**Show me** feature is a quick way to start with a basic graph which can be added to afterwards.
+
+#### Dual axis 
+
+**Dual axis** used to compare two variables on one plot. Drag the measures to the row shelf, you get two plots instead of one. Don't forget to convert data to continuous data.
+You can convert this to both lines on one plot by opening the menu one of the measure pills and selecting "Dual Axis".
+
+You can do a little shortcut by dragging the second measure to the right side of the view.
+
+#### 
