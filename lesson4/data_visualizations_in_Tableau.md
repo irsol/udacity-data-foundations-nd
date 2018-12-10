@@ -122,4 +122,12 @@ You can convert this to both lines on one plot by opening the menu one of the me
 
 You can do a little shortcut by dragging the second measure to the right side of the view.
 
-#### 
+#### Groups and Sets
+
+Tableau has two different methods for grouping together data: **groups** and **sets**.
+**Grouping** data points together can help illuminate your message. Groupsare typically created from the view by selecting multiple data points within the view. 
+
+You can create the group form the hover menu by clicking the link icon. 
+**Groups** are **static** the members don't change.
+
+Sets are similar to groups and that you can select data points to create a set from them. **Sets** can be **dynamic** where the members of the set will change as the uderlying data changes.
