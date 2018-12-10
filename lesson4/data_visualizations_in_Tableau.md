@@ -81,3 +81,17 @@ Often, you’ll want to include more dimensions in your graph. You can do that t
 
 Most often you'll be encoding data with color. This is easily done in Tableau, simply drag the field to "Color" in the Marks card.
 Color is great for encoding data on maps too.
+
+#### Size
+
+Dragging a field, either discrete or continuous, to "Size" will encode the data in the size of the markers. You'll most often use this encoding in a scatter plot, commonly known as a bubble plot.
+
+#### Shape
+
+As with color and size, you can use the shape of the markers to encode data. You'll want to use discrete data only for this. Also, if you have too many categories the shapes are too difficult to identify.
+
+#### Other Cards
+
+The "Detail" card allows you to bring in a field without any visual encoding. This enables you to increase granularity without adding any graphical effect.
+
+The "Label" card adds in labels for all of our markers.
