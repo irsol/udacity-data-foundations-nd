@@ -67,4 +67,17 @@ Tableau automatically aggregates measures, but not dimensions. That is, it does 
 
  When you drag a discrete field to Columns, it creates a discrete axis. When you use a continuous field, it creates a continuous axis. You can also drag the fields directly onto the sheet.
 
- 
+#### Hierarchies
+
+Hierarchies in Tableau give you the abilita to drill down into data. Tableau automatically makes hierarchies for timebase data.
+
+You can create your own hierarchies associated with dates.
+
+#### Marks and Filters
+
+Often, you’ll want to include more dimensions in your graph. You can do that through the Marks card. It has options such as color, size, and shape. You can add dimensions to the plot (increasing granularity) by dragging dimensions or measures to the Marks shelf.
+
+#### Color
+
+Most often you'll be encoding data with color. This is easily done in Tableau, simply drag the field to "Color" in the Marks card.
+Color is great for encoding data on maps too.
