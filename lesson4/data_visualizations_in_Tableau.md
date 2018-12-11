@@ -131,3 +131,49 @@ You can create the group form the hover menu by clicking the link icon.
 **Groups** are **static** the members don't change.
 
 Sets are similar to groups and that you can select data points to create a set from them. **Sets** can be **dynamic** where the members of the set will change as the uderlying data changes.
+
+#### Calculated fields
+
+**Calculated fields** create new fields from the underlying data. You can do simple arithmetic here, like adding a constant, or multiplying the field. You can also use functions such as absolute value, sine, square root, etc. 
+
+You can also do aggregation directly in a calculated field.
+
+Example of 2 different calculations:
+
+1. What is the profit ratio for a single order within any product or any other category level?
+
+Use Average `[Profit]/[Quantity]`
+
+2. What is the profit ratio at any level of a category?
+
+Use `SUM([Profit])/SUM([Quantity])`
+
+#### Conditional statement
+
+As in Excel and most programming languages, you can use conditional statements like IF, THEN, ELSE in calculations.
+
+`IF SUM([Sales]) > 10000 THEN "Good" ELSE "Bad"`
+
+Or short version `IIF(conditions, if true, if false)`:
+
+`IIF(SUM([Sales]) > 10000, "Good", "Bad")`
+
+#### Nested conditional statement
+
+`IIF([Quantity] < 2, 'Low', IIF([Quantity] < 5, 'Medium', 'High'))`
+
+`IIF([Quantity] < 3, 'Low', IIF([Quantity] < 8, 'Medium', 'High'))`
+
+#### Calculations with strings
+
+Much of the time you'll find yourself working with strings (text) like the product names in this data set. In calculations, you can do things like split up words in a string, find words in a string, and concatenate strings.
+
+[Tutorial calculation with strings](https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields.htm)
+
+#### Table calculations
+
+**Table calculations** are performed from the results of a visualization, like showing the percentage of total sales that comes from particular region. 
+
+The preferred method for creating most table calculations is from the "Quick table calculation" in drop down menu.
+
+Table calculations can be really useful for helping you to compare the data that exists in a plot to other parts of the plot.
