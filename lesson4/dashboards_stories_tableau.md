@@ -13,3 +13,6 @@
 Stories are great for a narrated walkthrough of the discoveries you made in your data. They are similar to dashboards in that you create sheets, then drag the sheets to the story. However, each sheet is displayed separately along with narrative text in sequential series.
 
 [Documentation](https://onlinehelp.tableau.com/current/pro/desktop/en-us/stories.htm)
+
+Storie may not be useful if you're creting elements to a presentation outside of Tableau.
+
